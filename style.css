@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    height: 60vh;
+    padding: 10px 0px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+nav h1{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+nav .onglets{
+    margin-top: 4px;
+    margin-left: 900px;
+}
+
+nav .onglets a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.container{
+    display: flex;
+    max-width: 150vh;
+    margin-top: 60px;
+    margin-left: 160px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.container .left-contain{
+    max-width: 60vh;
+    margin-top: 30px;
+}
+
+.container .left-contain h1{
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.container .left-contain p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.container .left-contain button{
+    margin-top: 10px;
+    padding: 4px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #f9faf8;
+
+}
+
+.container .right-container{ 
+    margin-top: 30px;
+    margin-right: -60px;
+}
+
+section .services{
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+section .services .bloc{
+    height: 26vh;
+    width: 24vh;
+    border: 1px solid transparent;
+    padding: 16px;
+    margin-top: 80px;
+    background-color: #f9faf8;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow:/* rgba(3, 102, 214, 0.3) */ #3882f6 0px 0px 0px 3px;
+}
+
+section .services .bloc h3{
+    color: #141a22;
+    margin-top: 10px;
+}
+
+section .services .bloc p{
+    color: #1f2937;
+    margin-top: 10px;
+}
+
+.download-section{
+    background-color: #e5e7eb;
+    margin-top: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+.download-section .apk  img{
+    margin-top: -40px;
+
+}
+
+
+.download-section h1{
+    color: #141a22;
+    bottom: 40px;
+}
+
+.download-section p{
+    color: #1f2937;
+    margin-top: 15px;
+}
+
+.signup{
+   width: 100%;
+   margin: auto;
+}
+
+.signup .signup-bloc{
+    display: flex;
+    height: 10vh;
+    width: 60vh;
+    gap: 80px;
+    align-items: center;
+    padding: 0px 180;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #3882f6;
+    
+}
+
+
+.signup .signup-bloc p { 
+    color: #f9faf8;
+}
+
+.signup .signup-bloc button{
+    height: 3vh;
+    width: 10vh;
+    border: 1px solid #f9faf8;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px 16px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
